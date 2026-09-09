@@ -7,7 +7,7 @@ A simple, easy-to-use Java program to manage pharmacy stock, sell medicines, cal
 ## What This Project Does
 
 Managing a pharmacy manually can lead to mistakes like running out of stock or selling expired medicine. This project provides a simple terminal tool to keep track of everyday pharmacy tasks:
-1 Store information about medicines (name, batch number, price, quantity, expiry date and medicine type).
+* Store information about medicines (name, batch number, price, quantity, expiry date and medicine type).
 * Sell medicines and automatically calculate total bills with tax.
 * Warn the user when medicine stock is running low (5 or fewer units left).
 * Flag medicines that are past their expiration date.
@@ -17,12 +17,12 @@ Managing a pharmacy manually can lead to mistakes like running out of stock or s
 
 ## Features
 
-1 **Medicine Management:** Add new medicines, view current stock and update quantities anytime.
-2 **Smart Categorization:** Uses Java OOP concepts to separate **Prescription** medicines from **Over-The-Counter (OTC)** medicines.
-3 **Billing System:** Handles customer orders, deducts purchased items from stock and adds a 5% tax.
-4 **Safety Checks:** Uses custom Java exceptions to stop sales if an item does not exist or if there is not enough stock.
-5 **Automatic File Saving:** Saves and loads everything using a CSV file without needing complex databases.
-6 **Pure Command Line:** Runs entirely in the terminal with zero external tools.
+* **Medicine Management:** Add new medicines, view current stock and update quantities anytime.
+* **Smart Categorization:** Uses Java OOP concepts to separate **Prescription** medicines from **Over-The-Counter (OTC)** medicines.
+* **Billing System:** Handles customer orders, deducts purchased items from stock and adds a 5% tax.
+* **Safety Checks:** Uses custom Java exceptions to stop sales if an item does not exist or if there is not enough stock.
+* **Automatic File Saving:** Saves and loads everything using a CSV file without needing complex databases.
+* **Pure Command Line:** Runs entirely in the terminal with zero external tools.
 
 
 
